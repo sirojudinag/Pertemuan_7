@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         PendingIntent pendingIntent = PendingIntent.getService(MainActivity.this,0,intent ,PendingIntent.FLAG_UPDATE_CURRENT);
 
-        
+
         AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
 
         if(alarmManager !=null){
